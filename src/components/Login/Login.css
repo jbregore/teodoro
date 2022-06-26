@@ -1,0 +1,53 @@
+
+/* .background__wrapper {
+    height: 100vh;
+    width: 100%;
+    background-repeat:no-repeat; 
+    background-size: "cover";
+    background-attachment: fixed; 
+    background-image: url("./bg.jpg");
+} */
+
+.login__wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    
+    /* background-repeat:no-repeat;  */
+    background-size: "cover";
+    background: url("./bg.jpg") no-repeat center fixed ;
+
+    /* background-color: green; */
+    /* rgb(81, 100, 130) */
+
+    /* orange rgb(234, 112, 28) */
+
+    /* yellow rgb(253, 178, 8) */
+    /* background-color: rgb(81, 100, 130); */
+    /* background-color: rgba(100, 172, 236, 0.374); */
+    /* background-image: linear-gradient(to bottom right, rgba(27, 129, 219, 0.785), rgba(243, 201, 86, 0.391)); */
+}
+
+
+
+.login__wrapper h2{
+    font-family: var(--font-base);
+    font-size: 2rem;
+    text-align: left;
+    /* color: #fff; */
+}
+
+.login_card{
+    /* background-image: linear-gradient(rgb(234, 112, 28), rgb(253, 178, 8));  */
+}
+
+/* .login__wrapper .app__wrapper{
+    background-color: green;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} */

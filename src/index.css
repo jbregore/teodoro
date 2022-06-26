@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+:root {
+   --font-base: 'Source Sans Pro', sans-serif;
+  /*--font-alt: 'Open Sans', sans-serif; */
+  
+  --color-blue: #DCCA87;
+  --color-orange: #0C0C0C;
+  --color-gray: #545454;
+  --color-crimson: #F5EFDB;
+  --color-grey: #AAAAAA;
+  --color-white: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
